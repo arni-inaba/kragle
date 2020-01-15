@@ -10,5 +10,5 @@ test_%:
 	poetry run pytest -vs -k $@ --pdb
 
 lint:
-	poetry run flake8 debouncer test
-	poetry run mypy debouncer
+	poetry run flake8 kragle test
+	poetry run mypy kragle
