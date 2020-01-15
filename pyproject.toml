@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "kragle"
-version = "0.1.0"
+version = "0.1.2"
 description = "glue and tape"
 authors = ["Arni Inaba Kjartansson <arni@inaba.is>"]
 license = "MIT"

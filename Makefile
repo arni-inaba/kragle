@@ -4,7 +4,7 @@ setup:
 	poetry install
 
 test:
-	poetry run pytest -vsx test/
+	poetry run pytest -vsx tests/
 
 test_%:
 	poetry run pytest -vs -k $@ --pdb
