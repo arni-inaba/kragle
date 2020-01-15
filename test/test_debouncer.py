@@ -2,7 +2,7 @@ import asyncio
 import asynctest
 import pytest
 
-from debouncer import Debouncer
+from kragle import Debouncer
 
 
 @pytest.mark.asyncio
